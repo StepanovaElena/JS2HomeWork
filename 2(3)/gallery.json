@@ -1,0 +1,7 @@
+{
+  "image": [
+    {"src": "images/min/1.jpg", "alt": "picture1", "target": "_blank", "href": "images/max/1.jpg"},
+    {"src": "images/min/2.jpg", "alt": "picture2", "target": "_blank", "href": "images/max/2.jpg"},
+    {"src": "images/min/3.jpg", "alt": "picture3", "target": "_blank", "href": "images/max/3.jpg"}
+  ]
+}
