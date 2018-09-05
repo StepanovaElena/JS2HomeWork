@@ -1,0 +1,20 @@
+.menu {
+    padding-top: 30px;
+    display: inline-flex;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #eaeaea;
+    width: 100%;
+}
+
+.menu-item {
+    margin-left: 30px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #f16d7f;
+    list-style-type: none;
+}

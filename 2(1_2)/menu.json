@@ -1,0 +1,14 @@
+{"items": {
+    "0": {"id":" ", "className": "menu-item", "href": "/", "title": "Home", "subMenu": null},
+    "1": {"id":" ", "className": "menu-item", "href": "/", "title": "Men", "subMenu": null},
+    "2": {"id":" ", "className": "menu-item", "href": "/", "title": "Women", "subMenu": null},
+    "3": {"id":" ", "className": "menu-item", "href": "/", "title": "Kids",
+      "subMenu": {"id": "Submenu", "className": "Submenu",
+        "items":{
+          "0": {"id": " ", "className": "menu-item", "href": "/", "title": "Catalog", "subMenu": null}
+        }
+      }
+    }
+  }
+}
+
