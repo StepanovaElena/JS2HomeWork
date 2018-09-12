@@ -1,0 +1,21 @@
+form textarea {
+    width: 400px;
+    height: 150px;
+}
+
+form input[type="text"], input[type="email"], input[type="tel"] {
+    width: 200px;
+    line-height: 10px;
+}
+form input[placeholder], textarea, select, input[type="text"] {
+    color:#5F9EA0;
+    font-size: 14px;
+    font-weight: 200;
+    text-align: left;
+    text-transform: capitalize;
+    margin: 10px;
+}
+form input[type="email"]:focus {
+    background-color: #FAEBD7;
+    color: #4682B4;
+}

@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.tabs {
+    width: 500px;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+.tabs ul {
+
+}
+.tabs ul li {
+    display: inline-block;
+    transition: 1s;
+}
+
+.tabs li.active {
+    border: 1px solid dimgrey;
+}
+
+.tabs li a {
+    text-decoration: none;
+    display: block;
+    padding: 8px 16px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #999;
+}
+.tabs li.active a,
+.tabs li a:hover {
+    color: midnightblue;
+    text-transform: uppercase;
+}
+
+
+.tab_content {
+    border: 1px solid dimgrey;
+    width: 500px;
+    color: black;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 21px;
+
+}
+.tab_content.active {
+    display: block;
+}
