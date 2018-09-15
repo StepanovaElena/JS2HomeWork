@@ -1,0 +1,14 @@
+#newReviewContainer {
+    width: 100%;
+    border: 2px solid darkgray;
+}
+
+#newReview {
+    padding: 20px;
+}
+
+.fieldReview {
+    width: 400px;
+    min-height: 100px;
+    resize: none;
+}
