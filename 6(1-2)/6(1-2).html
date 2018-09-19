@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="6(1-2).js"></script>
+    <link href="style.css" rel="stylesheet"/>
+    <title>Title</title>
+</head>
+<body>
+<form id="form">
+    <fieldset id="fieldset">
+        <legend>Откликнуться на вакансию</legend>
+        <p>
+            <label for="name">Имя:</label>
+            <input type="text" name="name" id="name" data-validation-rule="name" placeholder="Введите Ваше имя">
+        </p>
+        <p>
+            <label for="phone">Номер телефона:</label>
+            <input type="text" name="phone" id="phone" data-validation-rule="phone" placeholder="+7(777) 777-7777">
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" data-validation-rule="email" placeholder="Введите ваш email">
+        </p>
+
+        <p>
+            <label for="datepicker">Дата рождения:</label>
+            <input type="text" name="datepicker" id="datepicker" data-validation-rule="datapicker" placeholder="дд.мм.гг">
+        </p>
+
+        <p>
+            <input type="text" name="message" id="message" placeholder="Оставить сообщение">
+        </p>
+
+        <input type="submit"type="text" name="submit" class="submit" value="Отправить форму">
+        <div id ="dialog" title="Ошибки заполнения формы">
+            <ul class ="dialog" ></ul>
+        </div>
+    </fieldset>
+
+</form>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+#fieldset {
+    margin: auto;
+    height: 350px;
+    width: 500px;
+    padding-left: 30px;
+}
+
+input[type="text"] {
+    width: 200px;
+    line-height: 10px;
+    font-size: 12px;
+    font-weight: 200;
+    text-align: left;
+    padding-left: 10px;
+    display: block;
+
+}
+.dialog li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    color: darkred;
+    font-size: 12px;
+}
+#dialog title {
+    font-size: 12px;
+}
+
+.invalid {
+    background-color: salmon;
+}
+
