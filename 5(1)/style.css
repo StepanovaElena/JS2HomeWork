@@ -1,0 +1,29 @@
+input[type="number"] {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #eaeaea;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 40px;
+    height: 20px;
+    margin: 15px;
+    padding-left: 5px;
+}
+
+.cart {
+    border: dimgrey 1px solid;
+    width: 500px;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.delete {
+    margin-left: 20px;
+}
+
+.qnt {
+    margin-left: 20px;
+    margin-right: 20px;
+}
